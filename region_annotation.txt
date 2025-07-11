@@ -1,0 +1,11 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Region
+COLOR	#ffcc00
+
+DATA
+Prokka_on_GCF_000005845_2_ASM584v2_genomic__gff	#66c2a5	USA
+Prokka_on_GCF_000008865_2_ASM886v2_genomic__gff	#fc8d62	Japan
+Prokka_on_GCF_000013265_1_ASM1326v1_genomic__gff	#8da0cb	USA
+Prokka_on_GCF_003697165_2_ASM369716v2_genomic__gff	#e78ac3	USA
+Prokka_on_GCF_002853715_1_ASM285371v1_genomic-gff	#a6d854	China

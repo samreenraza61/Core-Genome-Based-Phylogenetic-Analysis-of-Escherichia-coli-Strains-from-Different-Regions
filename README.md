@@ -1,6 +1,4 @@
-# Ecoli-CoreGenome-Phylogenetics
-
-# 🧬 Core Genome-Based Phylogenetic Analysis of *Escherichia coli* Strains from Different Regions
+# Core Genome-Based Phylogenetic Analysis of *Escherichia coli* Strains from Different Regions
 
 ## 🔍 Research Question / Objective
 **"How do different strains of *Escherichia coli* (E. coli) from various geographical regions cluster based on their core genome sequences, and what does this reveal about their evolutionary relationship?"**

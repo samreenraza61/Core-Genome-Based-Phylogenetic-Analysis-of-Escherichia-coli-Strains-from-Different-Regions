@@ -84,12 +84,51 @@ Used iTOL to upload and annotate the .nwk tree with metadata such as strain name
 
 ---
 
-## 📈 Results Summary
+## 🧪 Results and Conclusion
 
-- Core gene alignment was completed using Roary.
-- A phylogenetic tree was constructed based on core genome sequences.
-- iTOL visualization included annotation by **geographic origin** (USA, Japan, China).
-- Clustering patterns were visually interpreted based on region.
+### 1️⃣ Phylogenetic Tree Interpretation
+
+The phylogenetic tree was constructed using the aligned core genome sequences and visualized with iTOL. Each strain was color-coded according to its geographical region:
+
+| Strain ID                                      | Region | Color   |
+|------------------------------------------------|--------|---------|
+| Prokka_on_GCF_000008865.2_ASM886v2             | Japan  | Orange  |
+| Prokka_on_GCF_000005845.2_ASM584v2             | USA    | Teal    |
+| Prokka_on_GCF_002853715.1_ASM285371v1          | China  | Green   |
+| Prokka_on_GCF_003697165.2_ASM369716v2          | USA    | Pink    |
+| Prokka_on_GCF_000013265.1_ASM1326v1            | USA    | Purple  |
+
+**Clustering Observations**:
+- Two USA strains (**ASM1326v1** and **ASM369716v2**) clustered closely within the same clade, suggesting a closer evolutionary relationship.
+- The third USA strain (**ASM584v2**) was distantly placed from the other two, indicating notable genomic variation even within strains from the same country.
+- The Japan strain (**ASM886v2**) branched off earlier than all others, forming an isolated lineage.
+- The China strain (**ASM285371v1**) clustered near the two USA strains (**ASM1326v1** and **ASM369716v2**), showing closer similarity to them than to the Japan or distant USA strain.
+
+---
+
+### 2️⃣ Core Genome Summary (`gene_presence_absence.csv`)
+
+| Gene Category      | Count |
+|--------------------|-------|
+| Core genes (100%)  | 2     |
+| Soft core (95–99%) | 0     |
+| Shell genes (15–95%)| 6,202 |
+| Cloud genes (<15%) | 0     |
+
+**Interpretation**:
+- Only **2 core genes** were present across all five strains, indicating a very low level of universally shared genes.
+- A total of **6,202 shell genes** were found, representing genes shared by some but not all strains.
+- No soft core or cloud genes were detected in this dataset.
+
+These findings indicate that the selected *E. coli* strains exhibit **high genomic variability**, with very few genes conserved across all samples.
+
+---
+
+### 🔍 Overall Conclusion
+
+The results suggest that *Escherichia coli* strains cluster partially based on geographical origin. Two of the three USA strains formed a close clade, whereas the third USA strain diverged significantly. The Japan strain formed a separate early-branching lineage, and the China strain clustered near two USA strains.
+
+Additionally, the presence of only two core genes and thousands of shell genes indicates substantial diversity among the selected genomes. These observations reflect strain-specific differences at the core genome level and suggest varying evolutionary paths among *E. coli* isolates from different regions.
 
 ---
 
